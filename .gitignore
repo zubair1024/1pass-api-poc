@@ -1,0 +1,11 @@
+.DS_Store
+dist
+node_modules
+
+.env
+
+DS_Store
+
+coverage
+
+1password-credentials.json
