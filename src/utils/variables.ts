@@ -13,4 +13,6 @@ export const variables = {
   ONE_PASS_SERVER_URL: process.env.ONE_PASS_SERVER_URL ?? '',
   ONE_PASS_SERVER_TOKEN: process.env.ONE_PASS_SERVER_TOKEN ?? '',
   VAULT_ID: process.env.VAULT_ID ?? '',
+  CRON_TAB: process.env.CRON_TAB ?? '5 * * * *',
+  TIMEZONE: process.env.TIMEZONE ?? 'Europe/Berlin',
 };
